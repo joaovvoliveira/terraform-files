@@ -1,0 +1,19 @@
+# Arquivos de sistema
+.DS_Store
+
+# Arquivos de estado do Terraform
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+*.backup
+crash.log
+
+# Variáveis sensíveis
+terraform.tfvars
+*.tfvars
+*.tfvars.*
+
+# Diretórios e arquivos locais do Terraform
+.terraform/
+.terraform.lock.hcl

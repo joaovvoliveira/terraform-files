@@ -1,5 +1,6 @@
 data "aws_acm_certificate" "certificate" {
-  domain   = var.domain_name
-  statuses = ["ISSUED"]
+  count  = var.certificate_domain != "" ? 1 : 0
+  domain = var.certificate_domain
   most_recent = true
+  statuses    = ["ISSUED"]
 }

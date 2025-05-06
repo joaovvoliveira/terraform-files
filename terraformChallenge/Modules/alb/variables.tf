@@ -26,3 +26,5 @@ variable "domain_name" {
   type        = string
 }
 
+variable "certificate_domain" {
+}
