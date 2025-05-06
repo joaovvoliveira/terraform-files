@@ -1,0 +1,13 @@
+Repositorys IAC should be named as IAC
+
+aws configure sso
+SSO session name (Recommended): rocketseat-sso #Criado na hora
+SSO start URL [None]: https://rocketseat-sso-iac2.awsapps.com/start #Criado no Identity Center
+SSO region [None]: us-east-1 #Consultar na aws
+SSO registration scopes [sso:account:access]: #Empty
+Attempting to automatically open the SSO authorization page in your default browser.
+If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+
+https://oidc.us-east-1.amazonaws.com/authorize?response_type=code&client_id=Rl8s9642UwBgApNT5vTHmHVzLWVhc3QtMQ&redirect_uri=http%3A%2F%2F127.0.0.1%3A52934%2Foauth%2Fcallback&state=1ec15d35-3a12-4c58-b01e-1c3084cd40bd&code_challenge_method=S256&scopes=sso%3Aaccount%3Aaccess&code_challenge=cWfKWE5Hm60MAQK4yEnjnH45ersKOLuWh0kF6kjlk48
+
+Criei uma permission Set e atribui para o Usuario criado anteriormente

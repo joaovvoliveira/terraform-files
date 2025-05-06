@@ -1,0 +1,5 @@
+.DS_Store
+DS_Store
+Kubernetes/.terraform/providers/registry.terraform.io/hashicorp/aws/5.94.0/darwin_arm64
+./Kubernetes/.terraform/providers/registry.terraform.io/hashicorp/aws/5.94.0/darwin_amd64.terraform/
+.terraform/
